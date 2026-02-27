@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    margin: 10% auto;
+    cursor: pointer;
+    /* background-color: red; */
+}
+.container1,.container3{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    /* margin: -9%; */
+}
+.container2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+}
+.box1,.box3,.box7,.box9{
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box2,.box8{
+    height: 100%;
+    width: 20%;
+}
+.box4,.box6{
+    height: 100%;
+    width: 40%;
+    /* margin: 0px; */
+}
+.box5{
+    height: 100%;
+    width: 20%;
+    /* margin: 0; */
+}
+.box1{
+    background-color:red;
+}
+.box3{
+    background-color: green;
+}
+.box7{
+    background-color: blue;
+}
+.box9{
+    background-color: yellow;
+}
+.white{
+    height: 70%;
+    width: 70%;
+    background-color: whitesmoke;
+}
+.red{
+    background-color: red;
+    height: 35%;
+    width: 35%;
+    margin: 7.5%;
+    float: left;
+}
+.yellow{
+    background-color: yellow;
+    height: 35%;
+    width: 35%;
+    margin: 7.5%;
+    float: left;
+}
+.blue{
+    background-color: blue;
+    height: 35%;
+    width: 35%;
+    margin: 7.5%;
+    float: left;
+}
+.green{
+    background-color:green;
+    height: 35%;
+    width: 35%;
+    margin: 7.5%;
+    float: left;
+}
+.box2>div,.box8>div{
+    width: 33.33%;
+    height: 16.66%;
+    float: left;
+    border: 1px solid black;
+}
+.box4>div,.box6>div{
+    height: 33.33%;
+    width: 16.66%;
+    float: left;
+    border: 1px solid black;
+    
+}
+.triangle{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.tra-right{
+    height:0px ;
+    width: 0px;
+    border-top: 50px solid transparent;
+    border-left: 50px solid red;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tra-up{
+    height:0px ;
+    width: 0px;
+    border-right: 50px solid transparent;
+    border-left:50px solid transparent;
+    border-bottom: 50px solid blue ;
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+}
+.tra-left{
+    height:0px ;
+    width: 0px;
+    border-right: 50px solid yellow;
+    border-bottom:50px solid transparent;
+    border-top: 50px solid transparent;
+    position: absolute;
+    right:0;
+    bottom: 0px;
+}
+.tra-down{
+    height:0px ;
+    width: 0px;
+    border-right: 50px solid transparent;
+    border-left:50px solid transparent;
+    border-top: 50px solid green;
+    position: absolute;
+    right:0;
+    top: 0;
+}
